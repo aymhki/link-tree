@@ -66,7 +66,7 @@
 
 <main>
   <div class="profile-section">
-    <img src={linksData.profile.avatar} alt={linksData.profile.name} class="avatar" />
+    <img src=/link-tree/${linksData.profile.avatar} alt={linksData.profile.name} class="avatar" />
     <h1 class="name">{linksData.profile.name}</h1>
     <p class="bio">{linksData.profile.bio}</p>
   </div>
@@ -79,7 +79,7 @@
         on:click={() => handleLinkClick(link.url)}
         aria-label={link.description}
       >
-        <img src={link.icon} alt={link.label} class="link-icon" />
+        <img src=/link-tree/${link.icon} alt={link.label} class="link-icon" />
         <span class="link-label">{link.label}</span>
       </button>
     {/each}
