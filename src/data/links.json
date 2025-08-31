@@ -1,28 +1,28 @@
 {
   "profile": {
     "name": "Ayman Agamy",
-    "avatar": "/theOGcat.jpg",
+    "avatar": "theOGcat.jpg",
     "bio": "Developer, creator, and an avid sonic the hedgehog fan."
   },
   "links": [
     {
       "id": 1,
       "label": "Peek Transit App Store",
-      "icon": "/icons/appstore.png",
+      "icon": "icons/appstore.png",
       "url": "https://apps.apple.com/ca/app/peek-transit/id6741770809",
       "description": "Peek Transit App on the App Store"
     },
     {
       "id": 2,
       "label": "Peek Transit Play Store",
-      "icon": "/icons/playstore.png",
+      "icon": "icons/playstore.png",
       "url": "https://play.google.com/store/apps/details?id=com.aymanhki.peektransit&pcampaignid=web_share",
       "description": "Peek Transit App on the Google Play Store"
     },
     {
       "id": 3,
       "label": "GitHub",
-      "icon": "/icons/github.png",
+      "icon": "icons/github.png",
       "url": "https://github.com/aymhki",
       "description": "Check out my code projects"
     }
