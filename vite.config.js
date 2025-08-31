@@ -5,4 +5,5 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
     base: '/link-tree/',
   plugins: [svelte()],
+    publicDir: 'public',
 })
