@@ -3,7 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/link-tree/',
+    // base: '/link-tree/',
   plugins: [svelte()],
-    publicDir: 'public',
 })
